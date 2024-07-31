@@ -21,3 +21,14 @@
 | Row 3 |  r31  |  r32  | r33  |  t3   |
 
 <small> These matrices should be separated (the r's and the t's) and multiplied together </small>
+
+
+#From camera frame to cars frame.
+|-------|    Col 1     |    Col 2     |     Col 3     |
+|-------|--------------|--------------|---------------|
+|-------|    Xcam      |    equals    |     Ycar      |
+|-------|    Ycam      |    equals    | Zcar + Hmount |
+|-------|    Zcam      |    equals    |     Xcar      |  
+
+<small> Camera frame to car frame. The optical axis Z is the cars X axis for the f1tenth. </small>
+ 
